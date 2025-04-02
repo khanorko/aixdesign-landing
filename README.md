@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# AIxDesign Global AB Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive landing page for AIxDesign Global AB, a company specializing in AI transformations with a human-centered approach.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This landing page showcases AIxDesign Global AB's services, including AIxInspire, AIxExplore, and AIxAction, with a focus on communicating the company's unique value proposition and building trust with potential clients.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Modern, minimalist design with a warm, inviting feel
+- Clean, professional UI with a human-centered aesthetic
+- Responsive design optimized for desktop and tablets
+- Tailwind CSS styling for a consistent look and feel
+- Card-based sections highlighting services, testimonials, and CTAs
+- Prominent call-to-action buttons
+- React Router for smooth navigation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React (Create React App)
+- TypeScript
+- Tailwind CSS
+- React Router DOM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+```
+src/
+├── components/
+│   ├── About.tsx
+│   ├── CTASection.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── Services.tsx
+│   └── Testimonials.tsx
+├── pages/
+│   └── Home.tsx
+├── App.tsx
+└── index.tsx
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open your browser at `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Design Choices
 
-### `npm run eject`
+- Soft gradients and structured white space for a premium, calming impression
+- Rounded corners and subtle shadows for a friendly, polished vibe
+- Discreet hover effects and smooth transitions to enhance engagement
+- Concise, scannable content sections
+- Visual elements that subtly reference AI without dominating the design
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT
